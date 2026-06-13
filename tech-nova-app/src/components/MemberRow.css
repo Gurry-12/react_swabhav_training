@@ -1,0 +1,55 @@
+.member-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 20px;
+
+  border-bottom: 1px solid #f1f1f1;
+
+  transition: all 0.2s ease;
+}
+
+.member-row:hover {
+  background-color: #f9fafb;
+}
+
+.member-left {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  background-color: #2563eb;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+
+  margin-right: 15px;
+}
+
+.member-info h4 {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.member-info p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.experience {
+  background-color: #e5e7eb;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
